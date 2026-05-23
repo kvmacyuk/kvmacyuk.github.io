@@ -1,1 +1,18 @@
 baseURL: 'https://kvmacyuk.github.io/'
+
+
+defaultContentLanguage: ru
+
+languages:
+  ru:
+    languageName: "Русский"
+    contentDir: content/ru   # Путь к русскому контенту
+    weight: 1                # Определяет порядок в переключателе языков
+    params:
+      description: "Мой сайт на русском"
+  en:
+    languageName: "English"
+    contentDir: content/en   # Путь к английскому контенту
+    weight: 2
+    params:
+      description: "My website in English"
