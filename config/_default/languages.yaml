@@ -1,18 +1,13 @@
-# Default language
-en:
-  locale: en-us
-  contentDir: content/en
-  title: "Your Site Title"
-  params:
-    description: "Site description in English"
 
-# Russian language
 ru:
   locale: ru-ru
   contentDir: content/ru
-  title: "Название вашего сайта"
+  title: "Мацюк Константин"
   params:
     description: "Описание сайта на русском"
+    navbar:
+      logo:
+        text: "Мацюк Константин"
   menu:
     main:
       - name: "О себе"
@@ -21,3 +16,14 @@ ru:
       - name: "Публикации"
         url: '#publications'
         weight: 2
+
+en:
+  locale: en-us
+  contentDir: content/en
+  title: "Macyuk Konstantin"
+  params:
+    description: "Site description in English"
+    navbar:
+      logo:
+        text: "Macyuk Konstantin"
+

@@ -39,14 +39,12 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 О моих исследованиях'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Программирую на C# и Python — нравится как низкоуровневая работа с памятью, так и написание скриптов для анализа данных. В C++ меня привлекает эффективность и контроль над ресурсами, в Python — скорость разработки.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        В свободное время изучаю иностранные языки, играю на гитаре и пианино, пишу музыку, фотографирую катаюсь на велосипеде. Иногда создаю в качестве pet-проектов игры на Unity.
     design:
       columns: '1'
   - block: collection
