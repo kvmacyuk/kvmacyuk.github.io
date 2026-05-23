@@ -1,14 +1,13 @@
-
 ---
-title: 'Язык разметки Markdown'
-summary: 'Синтаксис Markdown: заголовки, списки, форматирование, ссылки, изображения и блоки кода.'
+title: 'Markdown Markup Language'
+summary: 'Markdown syntax: headings, lists, formatting, links, images, and code blocks.'
 date: 2026-04-09
 authors:
   - me
 tags:
   - Markdown
-  - Документация
-  - Веб
+  - Documentation
+  - Web
 cover:
   image: 'https://images.unsplash.com/photo-1517430816045-df4b7de1d2ac'
   position: { x: 50, y: 50 }
@@ -20,78 +19,78 @@ cover:
     enabled: true
     height: '80px'
 image:
-  caption: 'Markdown — простой язык для форматирования текста.'
+  caption: 'Markdown — a simple language for formatting text.'
 ---
 
-# Язык разметки Markdown
+# Markdown Markup Language
 
-Markdown — облегчённый язык разметки, предназначенный для быстрого создания структурированных документов. Широко применяется в технической документации, файлах README, блогах и системах заметок.
+Markdown is a lightweight markup language designed for the rapid creation of structured documents. It is widely used in technical documentation, README files, blogs, and note-taking systems.
 
-## Структура текста
+## Text Structure
 
-Заголовки задаются символом `#`. Уровень определяется их количеством — от одного до шести:
+Headings are defined using the `#` symbol. The level is determined by the number of symbols, from one to six:
 
 ```markdown
-# Заголовок первого уровня
+# Heading Level 1
 
-## Заголовок второго уровня
+## Heading Level 2
 
-### Заголовок третьего уровня
+### Heading Level 3
 ```
 
-Для визуального разделения смысловых блоков используется горизонтальная линия:
+A horizontal rule is used to visually separate content sections:
 
 ```markdown
 ---
 ```
 
-## Форматирование
+## Formatting
 
-Markdown поддерживает базовое начертание текста:
+Markdown supports basic text styling:
 
-| Элемент | Синтаксис | Результат |
-|---------|-----------|-----------|
-| Жирный | `**текст**` | **текст** |
-| Курсив | `*текст*` | *текст* |
-| Жирный курсив | `***текст***` | ***текст*** |
+| Element | Syntax | Result |
+|---------|--------|--------|
+| Bold | `**text**` | **text** |
+| Italic | `*text*` | *text* |
+| Bold italic | `***text***` | ***text*** |
 
-## Списки
+## Lists
 
-Неупорядоченный список формируется дефисами, звёздочками или плюсами:
-
-```markdown
-- Элемент
-- Элемент
-- Элемент
-```
-
-Упорядоченный список использует числа с точкой:
+An unordered list is created using hyphens, asterisks, or plus signs:
 
 ```markdown
-1. Первый пункт
-2. Второй пункт
-3. Третий пункт
+- Item
+- Item
+- Item
 ```
 
-## Ссылки и изображения
-
-Ссылка состоит из текста в квадратных скобках и URL в круглых:
+An ordered list uses numbers followed by a period:
 
 ```markdown
-[Текст ссылки](https://example.com)
+1. First item
+2. Second item
+3. Third item
 ```
 
-Изображение отличается восклицательным знаком в начале конструкции:
+## Links and Images
+
+A link consists of text in square brackets and a URL in parentheses:
 
 ```markdown
-![Альтернативный текст](https://example.com/image.png)
+[Link text](https://example.com)
 ```
 
-## Блоки кода
+An image is distinguished by an exclamation mark at the beginning of the construct:
 
-Встроенный код помечается одиночными обратными апострофами: `` `код` ``.
+```markdown
+![Alt text](https://example.com/image.png)
+```
 
-Многострочный блок оборачивается тремя обратными апострофами. Для подсветки синтаксиса указывается язык:
+## Code Blocks
+
+Inline code is marked with single backticks: `` `code` ``.
+
+A multi-line block is wrapped in three backticks. The language is specified for syntax highlighting:
 
 ```markdown
 \`\`\`javascript
@@ -100,24 +99,23 @@ console.log(greeting);
 \`\`\`
 ```
 
-## Цитирование
+## Blockquotes
 
-Цитаты оформляются символом `>`:
+Quotations are formatted using the `>` symbol:
 
 ```markdown
-> Текст цитаты.
+> Quotation text.
 ```
 
-## Области применения
+## Use Cases
 
-Markdown используется для:
+Markdown is used for:
 
-- оформления README-файлов в репозиториях;
-- написания технической документации;
-- ведения блогов и создания контента для статических сайтов;
-- структурирования заметок в редакторах и приложениях.
+- formatting README files in repositories;
+- writing technical documentation;
+- blogging and creating content for static sites;
+- structuring notes in editors and applications.
 
-## Заключение
+## Conclusion
 
-Markdown сочетает читаемость исходного текста с возможностью быстрого преобразования в форматированный документ. Освоение его синтаксиса требует минимальных усилий и открывает доступ к широкому спектру инструментов для работы с текстом.
-
+Markdown combines the readability of source text with the ability to quickly convert it into a formatted document. Mastering its syntax requires minimal effort and provides access to a wide range of tools for working with text.

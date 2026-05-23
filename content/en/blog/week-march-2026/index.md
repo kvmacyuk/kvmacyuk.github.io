@@ -1,30 +1,29 @@
 ---
-title: Моя неделя в марте 2026
-summary: День суахили в РУДН
+title: My Week in March 2026
+summary: Swahili Day at RUDN University
 date: 2026-03-15
 
 authors:
   - me
 
 tags:
-  - Личное
-  - РУДН
-  - Языки
+  - Personal
+  - RUDN
+  - Languages
 ---
 
-## О неделе
+## About the Week
 
-Эта неделя выдалась особенной и запоминающейся. Главным событием стала наша поездка на день суахили в РУДН
+This week turned out to be special and memorable. The main event was our trip to Swahili Day at RUDN University.
 
-### Суахили
+### Swahili
 
-Суахили (кисуахили) — это крупнейший язык банту и важнейший язык межэтнического общения в Восточной и Центральной Африке. На нем говорят более 200 миллионов человек, и он является официальным в Танзании, Кении, Уганде и Демократической Республике Конго.
+Swahili (Kiswahili) is the largest Bantu language and the most important language of interethnic communication in East and Central Africa. It is spoken by over 200 million people and is an official language in Tanzania, Kenya, Uganda, and the Democratic Republic of the Congo.
 
-### Мероприятие
+### The Event
 
-Выступали преимущественно на суахили, но также были речи на английском и французском. Самым запоминающимся был номер от ВШЭ с фрагментов постановки "Алиса в стране чудес" на языке суахили
+Performances were delivered primarily in Swahili, although there were also speeches in English and French. The most memorable act was a performance by HSE University featuring an excerpt from the play *Alice in Wonderland* in Swahili.
 
-### Выводы
+### Takeaways
 
-- Узнал больше про язык суахли
-
+- Learned more about the Swahili language

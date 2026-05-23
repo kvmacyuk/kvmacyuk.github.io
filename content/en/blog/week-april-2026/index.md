@@ -1,13 +1,13 @@
 ---
-title: 'Неделя 30 марта — 5 апреля 2026'
-summary: 'Монтаж видео к 9 мая и учебная работа.'
+title: 'Week of March 30 – April 5, 2026'
+summary: 'Video editing for Victory Day and academic work.'
 date: 2026-04-09
 authors:
   - me
 tags:
-  - Учеба
-  - Монтаж
-  - Английский
+  - Study
+  - Video Editing
+  - English
 cover:
   image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d'
   position: { x: 50, y: 50 }
@@ -19,25 +19,24 @@ cover:
     enabled: true
     height: '80px'
 image:
-  caption: 'Монтаж видео к 9 мая.'
+  caption: 'Video editing for Victory Day.'
 ---
 
-# Отчет за неделю 30 марта — 5 апреля 2026
+# Weekly Report: March 30 – April 5, 2026
 
-На этой неделе я работал над монтажом видео о истории памятника Могила Неизвестного Солдата. Видео готовилось в группе по английскому языку, поэтому само видео был на английском.
+This week I worked on editing a video about the history of the Tomb of the Unknown Soldier monument. The video was prepared as part of an English language group assignment, so the narration was in English.
 
-## Что было сделано
+## What Was Accomplished
 
-- Нашел в интернете множество фрагментов видео и исторических хроник
-- Сделал черновой монтаж с помощью Adobe Premiere Pro.
-- Доработал вступление с помощью Photoshop.
-- Добавил всплывающую информацию, текст, фоновую музыку и звуки.
+- Found numerous video clips and historical chronicles online
+- Created a rough cut using Adobe Premiere Pro
+- Refined the introduction using Photoshop
+- Added pop-up information, text overlays, background music, and sound effects
 
-## Итоги
+## Outcomes
 
-Научился:
+I learned to:
 
-- монтировать видео в Premiere Pro,
-- готовить материал для создания видео,
-- работать в группе.
-
+- edit video in Premiere Pro,
+- prepare materials for video production,
+- collaborate within a group.

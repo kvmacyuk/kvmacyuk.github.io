@@ -1,7 +1,6 @@
-
 ---
-title: Управление версиями. Git
-summary: Основы системы контроля версий Git — команды, принципы работы и лучшие практики
+title: Version Control. Git
+summary: Basics of the Git version control system — commands, core principles, and best practices
 date: 2026-03-14
 
 authors:
@@ -9,120 +8,119 @@ authors:
 
 tags:
   - Git
-  - Программирование
+  - Programming
   - DevOps
 ---
 
-## Назначение Git
+## Purpose of Git
 
-**Git** — распределённая система контроля версий, созданная Линусом Торвальдсом в 2005 году. Её основные задачи: отслеживание изменений в коде, организация совместной работы и возможность возврата к предыдущим состояниям проекта.
+**Git** is a distributed version control system created by Linus Torvalds in 2005. Its primary functions are tracking code changes, enabling collaborative work, and providing the ability to revert to previous project states.
 
-## Ключевые понятия
+## Key Concepts
 
-### Репозиторий
+### Repository
 
-Репозиторий — директория проекта, содержащая все файлы и полную историю их изменений. Существует в двух формах:
+A repository is a project directory containing all files and their full change history. It exists in two forms:
 
-- **Локальный** — размещён на машине разработчика
-- **Удалённый** — расположен на сервере (GitHub, GitLab, Bitbucket)
+- **Local** — stored on the developer's machine
+- **Remote** — hosted on a server (GitHub, GitLab, Bitbucket)
 
-### Коммит
+### Commit
 
-Коммит фиксирует состояние проекта на определённый момент. Включает:
+A commit captures the state of a project at a specific point in time. It includes:
 
-- Уникальный хеш-идентификатор
-- Сообщение с описанием правок
-- Данные об авторе
-- Ссылку на предыдущий коммит
+- A unique hash identifier
+- A message describing the changes
+- Author information
+- A reference to the parent commit
 
-### Ветки
+### Branches
 
-Ветка — изолированная линия разработки. Позволяет вести параллельную работу над несколькими задачами без конфликтов. Главная ветка традиционно называется `main` или `master`.
+A branch is an isolated line of development. It allows parallel work on multiple tasks without conflicts. The main branch is traditionally named `main` or `master`.
 
-## Командный справочник
+## Command Reference
 
-### Инициализация и настройка
+### Initialization and Setup
 
 ```bash
-# Создание нового репозитория
+# Create a new repository
 git init
 
-# Копирование существующего
+# Clone an existing repository
 git clone <url>
 
-# Указание имени пользователя и почты
-git config --global user.name "Ваше Имя"
+# Set user name and email
+git config --global user.name "Your Name"
 git config --global user.email "email@example.com"
 ```
 
-### Фиксация изменений
+### Recording Changes
 
 ```bash
-# Текущее состояние рабочей директории
+# Current state of the working directory
 git status
 
-# Индексирование файлов
-git add <файл>
-git add .  # все изменённые файлы
+# Stage files
+git add <file>
+git add .  # all modified files
 
-# Сохранение снимка
-git commit -m "Описание изменений"
+# Save a snapshot
+git commit -m "Description of changes"
 
-# Просмотр истории
+# View commit history
 git log
 git log --oneline
 ```
 
-### Ветвление и слияние
+### Branching and Merging
 
 ```bash
-# Создать ветку
-git branch <имя-ветки>
+# Create a branch
+git branch <branch-name>
 
-# Переключиться на ветку
-git checkout <имя-ветки>
+# Switch to a branch
+git checkout <branch-name>
 
-# Создать и сразу переключиться
-git checkout -b <имя-ветки>
+# Create and switch in one command
+git checkout -b <branch-name>
 
-# Объединить ветки
-git merge <имя-ветки>
+# Merge branches
+git merge <branch-name>
 ```
 
-### Синхронизация с сервером
+### Synchronizing with a Server
 
 ```bash
-# Привязать удалённый репозиторий
+# Link a remote repository
 git remote add origin <url>
 
-# Отправить изменения на сервер
-git push origin <ветка>
+# Push changes to the server
+git push origin <branch>
 
-# Загрузить изменения с сервера
-git pull origin <ветка>
+# Pull changes from the server
+git pull origin <branch>
 
-# Загрузить без автоматического слияния
+# Fetch without automatic merging
 git fetch
 ```
 
-## Стандартный рабочий цикл
+## Standard Workflow
 
-1. **Создать ветку** — изолировать новую задачу
-2. **Внести правки** — реализовать функциональность
-3. **Зафиксировать** — сделать коммит с осмысленным сообщением
-4. **Отправить** — запушить ветку в удалённый репозиторий
-5. **Предложить изменения** — открыть Pull Request
-6. **Влить** — после проверки объединить с основной веткой
+1. **Create a branch** — isolate a new task
+2. **Make changes** — implement the functionality
+3. **Commit** — save with a meaningful message
+4. **Push** — upload the branch to the remote repository
+5. **Propose changes** — open a Pull Request
+6. **Merge** — integrate into the main branch after review
 
-## Рекомендации
+## Best Practices
 
-- Фиксируйте изменения **небольшими атомарными коммитами**
-- Формулируйте **информативные сообщения** к коммитам
-- Разрабатывайте новый функционал в **отдельных ветках**
-- Регулярно выполняйте `pull` для **поддержания актуальности** локальной копии
-- Исключите из отслеживания **конфиденциальные данные** (.env, ключи, пароли)
+- Record changes in **small, atomic commits**
+- Write **informative commit messages**
+- Develop new features in **separate branches**
+- Run `pull` regularly to **keep the local copy up to date**
+- Exclude **confidential data** from tracking (.env, keys, passwords)
 
-## Итог
+## Conclusion
 
-Git — базовый инструмент в арсенале разработчика. Владение основными командами ускоряет индивидуальную работу и упрощает взаимодействие в команде. Рекомендуется начинать с типовых операций и постепенно осваивать продвинутые возможности.
-
+Git is a fundamental tool in every developer's toolkit. Mastery of basic commands accelerates individual work and simplifies team collaboration. It is advisable to begin with standard operations and gradually explore more advanced features.

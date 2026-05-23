@@ -1,14 +1,13 @@
-
 ---
-title: 'Работа с библиографией: источники и профили'
-summary: 'Зачем нужна библиография, какие инструменты помогают вести учёт публикаций и как научные профили повышают видимость исследований.'
+title: 'Working with Bibliography: Sources and Profiles'
+summary: 'Why bibliography matters, which tools help manage publication records, and how scholarly profiles increase the visibility of research.'
 date: 2026-04-30
 authors:
   - me
 tags:
-  - Библиография
-  - Наука
-  - Документация
+  - Bibliography
+  - Science
+  - Documentation
 cover:
   image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a'
   position: { x: 50, y: 50 }
@@ -20,57 +19,57 @@ cover:
     enabled: true
     height: '80px'
 image:
-  caption: 'Грамотная библиография — основа академической добросовестности.'
+  caption: 'A well-crafted bibliography is the foundation of academic integrity.'
 ---
 
-# Работа с библиографией
+# Working with Bibliography
 
-Библиография — обязательный элемент любой научной или учебной работы. Она фиксирует источники, на которые опирался автор, подтверждает обоснованность выводов и обеспечивает соблюдение академических стандартов.
+A bibliography is a mandatory component of any scholarly or academic work. It records the sources the author has relied on, confirms the validity of the conclusions drawn, and ensures compliance with academic standards.
 
-## Функции библиографического списка
+## Functions of a Reference List
 
-Правильно составленная библиография выполняет несколько функций:
+A properly compiled bibliography serves several functions:
 
-- **Доказательная** — указывает происхождение фактов, цитат и заимствованных идей;
-- **Информационная** — демонстрирует объём изученного материала;
-- **Поисковая** — даёт читателю возможность самостоятельно найти упомянутые источники;
-- **Нормативная** — обеспечивает соответствие требованиям к оформлению работ.
+- **Evidentiary** — indicates the origin of facts, quotations, and borrowed ideas;
+- **Informational** — demonstrates the scope of material studied;
+- **Search** — enables the reader to independently locate the sources mentioned;
+- **Normative** — ensures compliance with formatting requirements.
 
-Небрежный список литературы снижает доверие к тексту, поэтому фиксировать выходные данные источников следует непосредственно в процессе работы, а не на этапе финальной вёрстки.
+A carelessly prepared reference list undermines the credibility of the text, so bibliographic details of sources should be recorded during the research process rather than at the final formatting stage.
 
-## Инструменты для управления научным профилем
+## Tools for Managing a Scholarly Profile
 
-Современные платформы позволяют не только хранить публикации, но и формировать целостное представление о научной деятельности автора.
+Modern platforms not only store publications but also help build a comprehensive picture of an author's research activity.
 
 ### ORCID
 
-Сервис выдаёт исследователю уникальный цифровой идентификатор, который связывает все публикации, гранты и аффилиации независимо от смены фамилии или места работы. Интегрирован с большинством издательств и библиометрических баз.
+The service provides a researcher with a unique digital identifier that links all publications, grants, and affiliations, regardless of changes in name or institutional affiliation. It is integrated with the majority of publishers and bibliometric databases.
 
 ### Google Scholar
 
-Формирует автоматический профиль автора на основе проиндексированных публикаций. Отображает показатели цитируемости, индекс Хирша и предоставляет базовую библиометрическую статистику.
+Automatically generates an author profile based on indexed publications. It displays citation metrics, the h-index, and provides basic bibliometric statistics.
 
 ### ResearchGate
 
-Профессиональная сеть для исследователей. Позволяет размещать полные тексты, отслеживать интерес к публикациям, задавать вопросы коллегам и находить соавторов.
+A professional network for researchers. It allows users to upload full texts, track interest in their publications, ask colleagues questions, and find potential co-authors.
 
 ### eLibrary
 
-Крупнейшая российская база научных публикаций. Содержит инструменты для анализа цитируемости и формирования библиографических отчётов в РИНЦ.
+The largest Russian database of scholarly publications. It contains tools for citation analysis and generating bibliometric reports within the RSCI.
 
 ### Academia.edu
 
-Платформа для размещения научных работ и отслеживания их читательской аудитории. Удобна для представления результатов исследований широкой аудитории.
+A platform for hosting academic papers and tracking their readership. It is a convenient tool for presenting research results to a broad audience.
 
-## Практические рекомендации по оформлению
+## Practical Formatting Recommendations
 
-Рациональный подход к сбору источников экономит ресурсы на завершающем этапе:
+A rational approach to collecting sources saves effort at the final stage:
 
-1. **Фиксируйте данные сразу** — автор, название, год издания, издательство, DOI или URL и дату обращения.
-2. **Используйте единое хранилище** — менеджер ссылок (Zotero, Mendeley) либо структурированный документ.
-3. **Следите за единообразием** — все записи в списке литературы должны быть оформлены в одном стиле (ГОСТ, APA, MLA и т.д.).
-4. **Поддерживайте профили в актуальном состоянии** — регулярно обновляйте списки публикаций на научных платформах.
+1.  **Record details immediately** — author, title, year of publication, publisher, DOI or URL, and date of access.
+2.  **Use a single repository** — a reference manager (Zotero, Mendeley) or a structured document.
+3.  **Maintain consistency** — all entries in the reference list must follow the same citation style (GOST, APA, MLA, etc.).
+4.  **Keep profiles up to date** — regularly refresh publication lists on scholarly platforms.
 
-## Заключение
+## Conclusion
 
-Библиография — инструмент, повышающий качество и убедительность научного текста. Систематический подход к учёту источников в сочетании с ведением цифрового профиля делает исследовательскую деятельность более прозрачной, а её результаты — более доступными для профессионального сообщества.
+A bibliography is a tool that enhances the quality and persuasiveness of an academic text. A systematic approach to source management, combined with maintaining a digital profile, makes research activity more transparent and its results more accessible to the professional community.

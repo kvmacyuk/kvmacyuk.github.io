@@ -1,14 +1,13 @@
-
 ---
-title: 'Языки научного программирования'
-summary: 'Обзор языков, применяемых в научных расчётах, анализе данных и моделировании.'
+title: 'Scientific Programming Languages'
+summary: 'An overview of languages used in scientific computing, data analysis, and modeling.'
 date: 2026-05-03
 authors:
   - me
 tags:
-  - Программирование
-  - Наука
-  - Анализ данных
+  - Programming
+  - Science
+  - Data Analysis
 cover:
   image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4'
   position: { x: 50, y: 50 }
@@ -20,56 +19,56 @@ cover:
     enabled: true
     height: '80px'
 image:
-  caption: 'Языки научного программирования применяются в вычислениях, моделировании и анализе данных.'
+  caption: 'Scientific programming languages are applied in computation, modeling, and data analysis.'
 ---
 
-# Языки научного программирования
+# Scientific Programming Languages
 
-Научное программирование охватывает задачи численного моделирования, статистического анализа, обработки данных и автоматизации экспериментов. Для их решения применяются языки с развитой экосистемой математических библиотек и удобными средствами визуализации.
+Scientific programming encompasses tasks related to numerical modeling, statistical analysis, data processing, and experiment automation. Languages with a mature ecosystem of mathematical libraries and convenient visualization tools are used to address these challenges.
 
-## Сферы применения
+## Areas of Application
 
-В исследовательской практике языки программирования востребованы для:
+In research practice, programming languages are in demand for:
 
-- обработки и очистки экспериментальных данных;
-- построения графиков, диаграмм и интерактивных визуализаций;
-- выполнения численных экспериментов и симуляций;
-- проверки гипотез методами статистического анализа.
+- processing and cleaning experimental data;
+- building plots, charts, and interactive visualizations;
+- conducting numerical experiments and simulations;
+- testing hypotheses using statistical analysis methods.
 
-Критериями выбора инструмента обычно выступают скорость разработки, производительность вычислений и доступность специализированных библиотек.
+The criteria for choosing a tool typically include development speed, computational performance, and the availability of specialized libraries.
 
-## Обзор языков
+## Language Overview
 
 ### Python
 
-Python занимает лидирующие позиции в научной среде благодаря сочетанию лаконичного синтаксиса и обширного набора библиотек. Ключевые пакеты: `NumPy` для численных операций, `pandas` для табличных данных, `matplotlib` и `seaborn` для визуализации, `SciPy` для научных расчётов, `scikit-learn` и `PyTorch` для машинного обучения. Универсальность делает Python подходящим как для прототипирования, так и для построения исследовательских пайплайнов.
+Python holds a leading position in the scientific community due to its combination of concise syntax and an extensive set of libraries. Key packages include: `NumPy` for numerical operations, `pandas` for tabular data, `matplotlib` and `seaborn` for visualization, `SciPy` for scientific computing, `scikit-learn` and `PyTorch` for machine learning. Its versatility makes Python suitable for both prototyping and building research pipelines.
 
 ### R
 
-R — специализированный язык для статистических вычислений и анализа данных. Обладает богатыми возможностями визуализации (`ggplot2`), обширным набором статистических методов и активным сообществом в академической среде. Особенно востребован в биостатистике, эконометрике и социальных науках.
+R is a specialized language for statistical computing and data analysis. It offers rich visualization capabilities (`ggplot2`), a comprehensive set of statistical methods, and an active community in academia. It is particularly in demand in biostatistics, econometrics, and the social sciences.
 
 ### Julia
 
-Julia разрабатывался как решение проблемы «двух языков» — когда прототип пишут на удобном языке, а производительную версию переписывают на другом. Он обеспечивает высокую скорость исполнения при сохранении выразительного синтаксиса. Применяется в численных методах, научных симуляциях и задачах, требующих интенсивных вычислений.
+Julia was designed as a solution to the "two-language problem" — where a prototype is written in a convenient language and the production version is rewritten in another. It delivers high execution speed while maintaining expressive syntax. It is used in numerical methods, scientific simulations, and tasks requiring intensive computation.
 
 ### MATLAB
 
-MATLAB — среда и язык для инженерных и научных расчётов. Сильные стороны: операции с матрицами, моделирование динамических систем, обработка сигналов, наличие специализированных инструментальных пакетов. Широко используется в техническом образовании и прикладных исследованиях.
+MATLAB is an environment and language for engineering and scientific computing. Its strengths include matrix operations, dynamic system modeling, signal processing, and the availability of specialized toolboxes. It is widely used in technical education and applied research.
 
 ### Fortran
 
-Fortran сохраняет позиции в области высокопроизводительных вычислений. На нём написаны многие библиотеки для численного моделирования, используемые в физике, метеорологии и вычислительной гидродинамике. Ценится за скорость исполнения и оптимизацию под векторные операции.
+Fortran maintains its standing in the field of high-performance computing. Many numerical modeling libraries used in physics, meteorology, and computational fluid dynamics are written in it. It is valued for execution speed and optimization for vector operations.
 
-## Сравнительный выбор
+## Comparative Selection
 
-| Язык | Сильные стороны | Типичные задачи |
-|------|----------------|-----------------|
-| Python | Универсальность, экосистема библиотек | Анализ данных, ML, автоматизация |
-| R | Статистика, визуализация | Статистический анализ, публикационная графика |
-| Julia | Скорость, удобный синтаксис | Численные методы, симуляции |
-| MATLAB | Инженерные пакеты, моделирование | Обработка сигналов, системы управления |
-| Fortran | Вычислительная эффективность | Решение PDE, климатические модели |
+| Language | Strengths | Typical Tasks |
+|----------|-----------|---------------|
+| Python | Versatility, library ecosystem | Data analysis, ML, automation |
+| R | Statistics, visualization | Statistical analysis, publication-quality graphics |
+| Julia | Speed, convenient syntax | Numerical methods, simulations |
+| MATLAB | Engineering toolboxes, modeling | Signal processing, control systems |
+| Fortran | Computational efficiency | Solving PDEs, climate models |
 
-## Заключение
+## Conclusion
 
-Выбор языка научного программирования определяется конкретной областью применения и характером решаемых задач. Python и R закрывают большинство потребностей в анализе данных, Julia предлагает компромисс между скоростью и удобством, MATLAB и Fortran остаются востребованными в специализированных нишах. Владение хотя бы одним инструментом из этого набора — необходимый элемент квалификации современного исследователя.
+The choice of a scientific programming language is determined by the specific area of application and the nature of the tasks to be solved. Python and R cover the majority of data analysis needs, Julia offers a compromise between speed and convenience, and MATLAB and Fortran remain in demand in specialized niches. Proficiency in at least one tool from this set is a necessary qualification element for a modern researcher.
