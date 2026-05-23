@@ -2,115 +2,105 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Мацюк
+  given: Константин
+  family: Владимирович
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+
+role: Студент направления "Прикладная информатика"
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Студент Российского университета дружбы народов, обучаюсь на факультете
+  физико-математических и естественных наук по направлению "Прикладная информатика".
+  Занимаюсь разработкой на C#, C++ и Python,
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: РУДН
+    url: https://www.rudn.ru/
 
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://github.com/kvmacyuk/
+  - icon: book-open
+    url: https://elibrary.ru/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0005-9129-794X
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?view_op=list_works&hl=ru&user=yF_7upEAAAAJ
+  - icon: academicons/academia
+    url: https://independent.academia.edu/%D0%94%D0%B5%D0%BD%D0%B8%D1%81%D0%98%D0%B3%D0%BD%D0%B0%D1%82%D0%B5%D0%BD%D0%BA%D0%BE1
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Denis-Ignatenko
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Программирование
+  - Разработка игр и геймдизайн (Unity)
+  - Музыка (игра на гитаре, пение, написание музыки)
+  - Психология
+  - Чтение
+  - Фотография
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Бакалавриат, Прикладная информатика
+    institution: Российский университет дружбы народов
+    start: 2025-09-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Факультет физико-математических и естественных наук.
+      Изучение программирования, баз данных и веб-разработки.
 
 skills:
-  - name: Technical Skills
+  - name: 'Программирование'
     items:
-      - label: Python
+      - label: 'C#'
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: 'Python'
         level: 4
-  - name: Research & Communication
+      - label: 'C++'
+        level: 3
+  - name: 'Фреймворки и библиотеки'
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: 'ASP.NET Core'
         level: 4
-      - label: Grant Proposals
+      - label: 'React'
         level: 4
+  - name: 'Базы данных'
+    items:
+      - label: 'MySQL'
+        level: 4
+      - label: 'SQLite'
+        level: 3
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+experience:
+  - role: 'Студент'
+    org: 'РУДН'
+    url: 'https://www.rudn.ru'
+    location: 'Москва, Россия'
+    start: '2025-09-01'
+    end: null
+    summary: |
+      Учусь на направлении «Прикладная информатика» и изучаю программирование
+      Реализую проекты с C#, ASP.NET Core, Python, Unity.
+      Разрабатываю учебные материалы на сайте.
+      Пишу музыку
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: 'Веб-проект'
+    awarder: 'Факультет РУДН'
+    date_start: '2025-05-01'
+    icon: 'trophy'
+    summary: 'Создал систему процедурной генерации карты с Unity и C#'
+  - title: 'Вклад в учебный проект'
+    awarder: 'Команда курса'
+    date_start: '2025-03-01'
+    icon: 'star'
+    summary: 'Скоординировал разработку проекта на C#/ASP.NET Core и помог команде подготовить презентацию.'
+
+languages:
+  - name: 'Русский'
+    level: 'Родной'
+  - name: 'Английский'
+    level: 'Высокий (C1)'
+  - name: 'Французский'
+    level: 'Начальный'

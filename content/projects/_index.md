@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Проекты
+      text: В этом разделе собраны мои учебные и персональные проекты, связанные с веб-разработкой, программированием и публикацией материалов на собственном сайте.
       filters:
         folders:
           - projects
@@ -24,3 +24,4 @@ sections:
       show_read_time: false
       show_read_more: false
 ---
+
