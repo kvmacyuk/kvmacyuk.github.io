@@ -1,0 +1,60 @@
+<!-- layouts/_partials/hooks/head-end.html -->
+<script>
+(function() {
+  'use strict';
+  
+  // Определяем язык по URL: /en/ = английский, всё остальное = русский
+  const isEnglish = window.location.pathname.startsWith('/en/');
+  
+  // Переводы только для русского языка
+  const ruTranslations = {
+    'Theme': 'Тема оформления',
+    'Coffee': 'Кофе',
+    'Contrast': 'Контраст',
+    'Cupcake': 'Капкейк',
+    'Default': 'Стандартная',
+    'Dracula': 'Дракула',
+    'Marine': 'Морская',
+    'Matcha': 'Матча',
+    'Minimal': 'Минимализм',
+    'Retro': 'Ретро',
+    'Solar': 'Солнечная',
+    'Synthwave': 'Синтвейв'
+  };
+  
+  function translateThemeSelector() {
+    const selector = document.querySelector('select[onchange*="data-theme-pack"]');
+    if (!selector) return;
+    
+    // Если английский язык — ничего не переводим (оставляем как есть)
+    if (isEnglish) return;
+    
+    // Если русский — переводим
+    for (let option of selector.options) {
+      const original = option.textContent;
+      if (ruTranslations[original]) {
+        option.textContent = ruTranslations[original];
+      }
+    }
+  }
+  
+  // Запускаем после загрузки DOM
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', translateThemeSelector);
+  } else {
+    translateThemeSelector();
+  }
+  
+  // Следим за появлением селектора (на случай динамической загрузки)
+  const observer = new MutationObserver(function(mutations) {
+    for (const mutation of mutations) {
+      if (mutation.addedNodes.length) {
+        translateThemeSelector();
+        break;
+      }
+    }
+  });
+  
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
+</script>
