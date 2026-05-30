@@ -3,6 +3,9 @@ ru:
   contentDir: content/ru
   title: "Мацюк Константин"
   params:
+    hugoblox:
+      identity:
+        name: "Мацюк Константин"
     description: "Описание сайта на русском"
     navbar:
       logo:
@@ -21,6 +24,9 @@ en:
   contentDir: content/en
   title: "Macyuk Konstantin"
   params:
+    hugoblox:
+      identity:
+        name: "Macyuk Konstantin"
     description: "Site description in English"
     navbar:
       logo:
