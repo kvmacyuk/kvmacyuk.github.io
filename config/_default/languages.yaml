@@ -22,6 +22,27 @@ en:
   contentDir: content/en
   title: "Macyuk Konstantin"
   params:
+    author:
+      name: "Matsyuk Konstantin Vladimirovich"
+      role: "Student, Applied Informatics"
+      bio: |
+        Student at RUDN University, studying at the Faculty of Physics, Mathematics
+        and Natural Sciences in the Applied Informatics program.
+        Developer with experience in C#, C++, and Python.
+      interests:
+        - Programming
+        - Game Development & Design (Unity)
+        - Music (guitar, singing, composing)
+        - Psychology
+        - Reading
+        - Photography
+      education:
+        - degree: "Bachelor's, Applied Informatics"
+          institution: "RUDN University"
+          start: "2025-09-01"
+          summary: |
+            Faculty of Physics, Mathematics and Natural Sciences.
+            Studying programming, databases, and web development.
     description: "Site description in English"
     navbar:
       logo:
