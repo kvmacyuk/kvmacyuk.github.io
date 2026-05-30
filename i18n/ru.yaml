@@ -1,0 +1,11 @@
+theme_selector:
+  translation: "Тема оформления"
+
+theme_light:
+  translation: "Светлая"
+
+theme_dark:
+  translation: "Тёмная"
+
+theme_auto:
+  translation: "Авто"
