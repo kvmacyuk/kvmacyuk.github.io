@@ -2,7 +2,7 @@
 ---
 title: 'AI Psychosis: Unexpected Consequences of Using Chatbots'
 summary: 'An overview of the mechanisms and scale of the impact of large language models on the formation of delusional states'
-date: 2026-05-30
+date: 2026-05-29
 authors:
   - me
 tags:
