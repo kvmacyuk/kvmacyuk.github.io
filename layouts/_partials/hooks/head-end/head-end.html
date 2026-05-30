@@ -3,10 +3,8 @@
 (function() {
   'use strict';
   
-  // Определяем язык по URL: /en/ = английский, всё остальное = русский
   const isEnglish = window.location.pathname.startsWith('/en/');
   
-  // Переводы только для русского языка
   const ruTranslations = {
     'Theme': 'Тема оформления',
     'Coffee': 'Кофе',
@@ -24,34 +22,59 @@
   
   function translateThemeSelector() {
     const selector = document.querySelector('select[onchange*="data-theme-pack"]');
-    if (!selector) return;
+    if (!selector) return false;
     
-    // Если английский язык — ничего не переводим (оставляем как есть)
-    if (isEnglish) return;
+    // Если уже переведён и не английский — не трогаем
+    if (selector.hasAttribute('data-translated')) return true;
     
-    // Если русский — переводим
+    // Если английский — не переводим
+    if (isEnglish) return true;
+    
+    let translated = 0;
     for (let option of selector.options) {
       const original = option.textContent;
       if (ruTranslations[original]) {
         option.textContent = ruTranslations[original];
+        translated++;
       }
+    }
+    
+    if (translated > 0) {
+      selector.setAttribute('data-translated', 'true');
+      console.log('Theme selector translated:', translated, 'options');
+    }
+    
+    return translated > 0;
+  }
+  
+  // Функция с повторными попытками
+  function tryTranslate(attempt = 1, maxAttempts = 20) {
+    if (translateThemeSelector()) return;
+    
+    if (attempt < maxAttempts) {
+      // Увеличиваем интервал с каждой попыткой (50, 100, 150... до 1000мс)
+      const delay = Math.min(attempt * 50, 1000);
+      setTimeout(function() {
+        tryTranslate(attempt + 1, maxAttempts);
+      }, delay);
+    } else {
+      console.warn('Theme selector not found after', maxAttempts, 'attempts');
     }
   }
   
-  // Запускаем после загрузки DOM
+  // Запускаем после полной загрузки страницы
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', translateThemeSelector);
+    window.addEventListener('load', function() {
+      setTimeout(tryTranslate, 100);
+    });
   } else {
-    translateThemeSelector();
+    setTimeout(tryTranslate, 100);
   }
   
-  // Следим за появлением селектора (на случай динамической загрузки)
+  // Также следим за появлением селектора через MutationObserver
   const observer = new MutationObserver(function(mutations) {
-    for (const mutation of mutations) {
-      if (mutation.addedNodes.length) {
-        translateThemeSelector();
-        break;
-      }
+    if (document.querySelector('select[onchange*="data-theme-pack"]')) {
+      translateThemeSelector();
     }
   });
   
