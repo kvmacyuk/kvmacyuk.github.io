@@ -1,7 +1,7 @@
 ---
 title: 'Неделя 18 мая - 24 мая'
 summary: 'Курс Stepik и последняя пара по ОВП'
-date: 2026-04-09
+date: 2026-05-25
 authors:
   - me
 tags:
