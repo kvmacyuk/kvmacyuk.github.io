@@ -13,9 +13,22 @@ baseURL: 'https://kvmacyuk.github.io/'
 ############################
 
 defaultContentLanguage: ru
+defaultContentLanguageInSubdir: false  # Важно: не вкладывать язык в URL
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+languages:
+  ru:
+    languageName: "Русский"
+    weight: 1  # Приоритет - русский будет основным
+    contentDir: content/ru
+  en:
+    languageName: "English"
+    weight: 2
+    contentDir: content/en
+
+
+disableLanguages: []
 
 ############################
 ## PAGE OPTIONS
