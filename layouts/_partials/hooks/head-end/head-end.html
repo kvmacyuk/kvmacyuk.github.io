@@ -24,10 +24,6 @@
     const selector = document.querySelector('select[onchange*="data-theme-pack"]');
     if (!selector) return false;
     
-    // Если уже переведён и не английский — не трогаем
-    if (selector.hasAttribute('data-translated')) return true;
-    
-    // Если английский — не переводим
     if (isEnglish) return true;
     
     let translated = 0;
@@ -40,44 +36,46 @@
     }
     
     if (translated > 0) {
-      selector.setAttribute('data-translated', 'true');
       console.log('Theme selector translated:', translated, 'options');
     }
-    
     return translated > 0;
   }
   
-  // Функция с повторными попытками
-  function tryTranslate(attempt = 1, maxAttempts = 20) {
+  // Увеличиваем количество попыток до 50 с интервалом 200мс
+  let attempts = 0;
+  const maxAttempts = 50;
+  const intervalTime = 200;
+  
+  function tryTranslate() {
     if (translateThemeSelector()) return;
     
-    if (attempt < maxAttempts) {
-      // Увеличиваем интервал с каждой попыткой (50, 100, 150... до 1000мс)
-      const delay = Math.min(attempt * 50, 1000);
-      setTimeout(function() {
-        tryTranslate(attempt + 1, maxAttempts);
-      }, delay);
+    attempts++;
+    if (attempts < maxAttempts) {
+      setTimeout(tryTranslate, intervalTime);
     } else {
       console.warn('Theme selector not found after', maxAttempts, 'attempts');
     }
   }
   
-  // Запускаем после полной загрузки страницы
-  if (document.readyState === 'loading') {
-    window.addEventListener('load', function() {
-      setTimeout(tryTranslate, 100);
-    });
-  } else {
-    setTimeout(tryTranslate, 100);
+  // Запускаем перевод с задержкой 500мс после полной загрузки
+  function startTranslation() {
+    attempts = 0;
+    setTimeout(tryTranslate, 500);
   }
   
-  // Также следим за появлением селектора через MutationObserver
+  // Ждём полную загрузку страницы
+  if (document.readyState === 'loading') {
+    window.addEventListener('load', startTranslation);
+  } else {
+    startTranslation();
+  }
+  
+  // Дополнительно: следим за появлением селектора
   const observer = new MutationObserver(function(mutations) {
     if (document.querySelector('select[onchange*="data-theme-pack"]')) {
       translateThemeSelector();
     }
   });
-  
   observer.observe(document.body, { childList: true, subtree: true });
 })();
 </script>
