@@ -20,14 +20,14 @@ sections:
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Умения и хобби
       username: me
   - block: resume-awards
     content:
-      title: Awards
+      title: Награды
       username: me
   - block: resume-languages
     content:
-      title: Languages
+      title: Языки
       username: me
 ---

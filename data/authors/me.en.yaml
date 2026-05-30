@@ -86,16 +86,11 @@ experience:
       Composing music.
 
 awards:
-  - title: 'Web Project'
+  - title: 'Game Project'
     awarder: 'RUDN Faculty'
     date_start: '2025-05-01'
     icon: 'trophy'
     summary: 'Created a procedural map generation system with Unity and C#'
-  - title: 'Course Project Contribution'
-    awarder: 'Course Team'
-    date_start: '2025-03-01'
-    icon: 'star'
-    summary: 'Coordinated development of a C#/ASP.NET Core project and helped the team prepare the presentation.'
 
 languages:
   - name: 'Russian'

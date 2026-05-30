@@ -86,16 +86,11 @@ experience:
       Пишу музыку
 
 awards:
-  - title: 'Веб-проект'
+  - title: 'Проект на ПСО'
     awarder: 'Факультет РУДН'
     date_start: '2025-05-01'
     icon: 'trophy'
     summary: 'Создал систему процедурной генерации карты с Unity и C#'
-  - title: 'Вклад в учебный проект'
-    awarder: 'Команда курса'
-    date_start: '2025-03-01'
-    icon: 'star'
-    summary: 'Скоординировал разработку проекта на C#/ASP.NET Core и помог команде подготовить презентацию.'
 
 languages:
   - name: 'Русский'
