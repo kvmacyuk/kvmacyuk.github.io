@@ -17,7 +17,7 @@ ru:
         weight: 2
 
 en:
-  locale: en-us
+  locale: en-en
   contentDir: content/en
   title: "Macyuk Konstantin"
   params:

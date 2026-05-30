@@ -1,28 +1,28 @@
 ---
-title: "An example preprint / working paper"
+title: "Пример препринта / рабочего доклада"
 authors:
 - me
 date: "2019-04-07T00:00:00Z"
 
-# Schedule page publish date (NOT publication's date).
+# Дата публикации на сайте (НЕ дата публикации работы).
 publishDate: "2017-01-01T00:00:00Z"
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
+# Тип публикации.
+# Принимает одно значение, но оформляется как список YAML (по требованиям Hugo).
+# Укажите тип публикации из стандарта CSL.
 publication_types: ["article"]
 
-# Publication name and optional abbreviated publication name.
+# Название публикации и (необязательно) сокращённое название.
 publication: ""
 publication_short: ""
 
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
-# Summary. An optional shortened abstract.
+# Краткое содержание. Необязательный сокращённый абстракт.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- Большие языковые модели
 
 featured: true
 
@@ -47,35 +47,35 @@ links:
 - type: video
   url: https://youtube.com
 - type: custom
-  label: Custom Link
+  label: Произвольная ссылка
   url: http://example.org
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# Изображение для превью
+# Чтобы использовать, добавьте изображение с именем `featured.jpg/png` в папку страницы. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Источник изображения: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
+# Связанные проекты (необязательно).
+#   Свяжите эту публикацию с одним или несколькими проектами.
+#   Просто укажите название папки или файла проекта без расширения.
+#   Например, `internal-project` ссылается на `content/project/internal-project/index.md`.
+#   В противном случае задайте `projects: []`.
 projects:
 - internal-project
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+# Слайды (необязательно).
+#   Свяжите эту публикацию со слайдами в формате Markdown.
+#   Просто укажите имя файла слайдов без расширения.
+#   Например, `slides: "example"` ссылается на `content/slides/example/index.md`.
+#   В противном случае задайте `slides: ""`.
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
+Эта работа основана на результатах моей [предыдущей статьи](/publications/conference-paper/) о больших языковых моделях.
 
 > [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
+> Создавайте слайды в Markdown — нажмите кнопку *Слайды*, чтобы посмотреть пример.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Добавьте сюда **полный текст** публикации или **дополнительные примечания**. Можно использовать расширенное форматирование, включая [код, формулы и изображения](https://docs.hugoblox.com/content/writing-markdown-latex/).

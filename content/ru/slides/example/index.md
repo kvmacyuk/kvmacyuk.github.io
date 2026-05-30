@@ -1,63 +1,62 @@
----
-title: "Example Talk: Recent Work"
+title: "Пример доклада: Недавняя работа"
 date: 2024-01-01
-# `type: slides` is inferred from folder, but can be set explicitly:
+# `type: slides` определяется автоматически по папке, но можно задать явно:
 type: slides
-summary: "A quick tour of recent research highlights: multimodal LLMs, efficient training, and responsible AI."
+summary: "Краткий обзор последних исследовательских достижений: мультимодальные LLM, эффективное обучение и ответственный ИИ."
 slides:
-  theme: black  # Options: black, white, league, beige, sky, night, serif, simple, solarized
-  highlight_style: dracula  # Code syntax highlighting theme
-  diagram: true  # Enable Mermaid diagrams for flowcharts, etc.
+  theme: black  # Варианты: black, white, league, beige, sky, night, serif, simple, solarized
+  highlight_style: dracula  # Тема подсветки синтаксиса кода
+  diagram: true  # Включить диаграммы Mermaid для блок-схем и т.д.
   reveal_options:
-    controls: true      # Show navigation arrows
-    progress: true      # Show progress bar
-    slideNumber: true   # Show slide numbers
-    hash: true          # Update URL when navigating slides
+    controls: true      # Показывать стрелки навигации
+    progress: true      # Показывать индикатор выполнения
+    slideNumber: true   # Показывать номера слайдов
+    hash: true          # Обновлять URL при навигации по слайдам
 
-  # BRANDING: Add logo, title overlay, and footer to your presentation
-  # All settings are optional - remove any you don't need
+  # БРЕНДИРОВАНИЕ: Добавьте логотип, заголовок и нижний колонтитул в презентацию
+  # Все настройки необязательны — удалите ненужные
   branding:
-    # LOGO: Display your organization's logo
+    # ЛОГОТИП: Отображение логотипа вашей организации
     logo:
-      filename: "slides-logo.svg"   # File in assets/media/ folder (SVG recommended for any theme)
-      position: "top-right"         # Options: top-left, top-right, bottom-left, bottom-right
-      width: "50px"                 # Logo width (height scales automatically)
-      # margin: "20px"              # Distance from edge (optional, default: 20px)
+      filename: "slides-logo.svg"   # Файл в папке assets/media/ (рекомендуется SVG для любой темы)
+      position: "top-right"         # Варианты: top-left, top-right, bottom-left, bottom-right
+      width: "50px"                 # Ширина логотипа (высота масштабируется автоматически)
+      # margin: "20px"              # Отступ от края (необязательно, по умолчанию: 20px)
     
-    # TITLE OVERLAY: Show presentation title on every slide
+    # НАЛОЖЕНИЕ ЗАГОЛОВКА: Показывать название презентации на каждом слайде
     title:
-      show: true                    # Set to false to hide
-      position: "bottom-left"       # Options: top-left, top-right, bottom-left, bottom-right
-      # text: "Short Title"         # Optional: override the page title with custom text
-      # margin: "20px"              # Distance from edge (optional)
+      show: true                    # Установите false, чтобы скрыть
+      position: "bottom-left"       # Варианты: top-left, top-right, bottom-left, bottom-right
+      # text: "Краткий заголовок"   # Необязательно: заменить заголовок страницы пользовательским текстом
+      # margin: "20px"              # Отступ от края (необязательно)
     
-    # AUTHOR OVERLAY: Show author name on every slide
+    # НАЛОЖЕНИЕ АВТОРА: Показывать имя автора на каждом слайде
     # author:
     #   show: true
     #   position: "bottom-right"
     
-    # FOOTER TEXT: Display copyright, conference name, etc.
+    # ТЕКСТ В НИЖНЕМ КОЛОНТИТУЛЕ: Отображение копирайта, названия конференции и т.д.
     footer:
-      text: "© 2026 HugoBlox"       # Supports Markdown (e.g., links)
-      position: "bottom-center"     # Options: top-left, top-right, bottom-left, bottom-right, bottom-center
+      text: "© 2026 HugoBlox"       # Поддерживает Markdown (например, ссылки)
+      position: "bottom-center"     # Варианты: top-left, top-right, bottom-left, bottom-right, bottom-center
 ---
 
 
 <!-- no-branding -->
-# Example Talk
-### Dr. Alex Johnson · Meta AI
+# Пример доклада
+### Д-р Алекс Джонсон · Meta AI
 
 ---
 
-## Research Overview
+## Обзор исследования
 
-- Multimodal LLMs
-- Efficient training
-- Responsible AI
+- Мультимодальные LLM
+- Эффективное обучение
+- Ответственный ИИ
 
 ---
 
-## Code & Math
+## Код и математика
 
 ```python
 def score(x: int) -> int:
@@ -70,27 +69,27 @@ $$
 
 ---
 
-## Dual Column Layout
+## Двухколоночный макет
 
 <div class="r-hstack">
 
 <div style="flex: 1; padding-right: 1rem;">
 
-### Left Column
+### Левая колонка
 
-- Point A
-- Point B  
-- Point C
+- Пункт А
+- Пункт Б  
+- Пункт В
 
 </div>
 
 <div style="flex: 1; padding-left: 1rem;">
 
-### Right Column
+### Правая колонка
 
-- Detail 1
-- Detail 2
-- Detail 3
+- Деталь 1
+- Деталь 2
+- Деталь 3
 
 </div>
 
@@ -98,29 +97,29 @@ $$
 
 ---
 
-<!-- Alternative: Asymmetric columns -->
+<!-- Альтернатива: Асимметричные колонки -->
 
 <div style="display: flex; gap: 2rem;">
 
 <div style="flex: 2;">
 
-### Main Content (2/3 width)
+### Основной контент (2/3 ширины)
 
-This column takes up twice the space of the right column.
+Эта колонка занимает вдвое больше места, чем правая.
 
 ```python
 def example():
-    return "code works too"
+    return "код тоже работает"
 ```
 
 </div>
 
 <div style="flex: 1;">
 
-### Sidebar (1/3 width)
+### Боковая панель (1/3 ширины)
 
-> **Note**  
-> Key points in smaller column
+> **Примечание**  
+> Ключевые моменты в меньшей колонке
 
 </div>
 
@@ -128,7 +127,7 @@ def example():
 
 ---
 
-## Image + Text Layout
+## Макет «Изображение + Текст»
 
 <div class="r-hstack" style="align-items: center;">
 
@@ -140,346 +139,345 @@ def example():
 
 <div style="flex: 1; padding-left: 2rem;">
 
-### Results
+### Результаты
 
-- 95% accuracy
-- 10x faster inference
-- Lower memory usage
+- Точность 95%
+- Вывод в 10 раз быстрее
+- Меньшее потребление памяти
 
-{{< fragment >}}**Breakthrough!**{{< /fragment >}}
-
-</div>
+{{< fragment >}}**Прорыв!**{{< /fragment >}}
 
 </div>
 
+</div>
+
 ---
 
-## Speaker Notes
+## Заметки докладчика
 
-Press **S** to open presenter view with notes!
+Нажмите **S**, чтобы открыть вид докладчика с заметками!
 
-This slide has hidden speaker notes below.
+На этом слайде есть скрытые заметки докладчика.
 
 Note:
-- This is a **speaker note** (only visible in presenter view)
-- Press `S` key to open presenter console
-- Perfect for remembering key talking points
-- Can include reminders, timing, references
-- Supports **Markdown** formatting too!
+- Это **заметка докладчика** (видна только в режиме докладчика)
+- Нажмите клавишу `S`, чтобы открыть консоль докладчика
+- Идеально для запоминания ключевых тезисов
+- Можно включать напоминания, тайминг, ссылки
+- Также поддерживает форматирование **Markdown**!
 
 ---
 
-## Progressive Reveals
+## Последовательное раскрытие
 
-Content appears step-by-step:
+Контент появляется шаг за шагом:
 
-{{< fragment >}}First point appears{{< /fragment >}}
+{{< fragment >}}Сначала появляется первый пункт{{< /fragment >}}
 
-{{< fragment >}}Then the second point{{< /fragment >}}
+{{< fragment >}}Затем второй пункт{{< /fragment >}}
 
-{{< fragment >}}Finally the conclusion{{< /fragment >}}
+{{< fragment >}}Наконец, заключение{{< /fragment >}}
 
-{{< fragment class="highlight-red" >}}This one can be **highlighted**!{{< /fragment >}}
+{{< fragment class="highlight-red" >}}Этот можно **выделить**!{{< /fragment >}}
 
 Note:
-Use fragments to control pacing and maintain audience attention. Each fragment appears on click.
+Используйте фрагменты для управления темпом и удержания внимания аудитории. Каждый фрагмент появляется по клику.
 
 ---
 
-## Diagrams with Mermaid
+## Диаграммы с Mermaid
 
 ```mermaid
 graph LR
-    A[Research Question] --> B{Hypothesis}
-    B -->|Valid| C[Experiment]
-    B -->|Invalid| D[Revise]
-    C --> E[Analyze Data]
-    E --> F{Significant?}
-    F -->|Yes| G[Publish]
-    F -->|No| D
+    A[Исследовательский вопрос] --> B{Гипотеза}
+    B -->|Верна| C[Эксперимент]
+    B -->|Неверна| D[Пересмотреть]
+    C --> E[Анализ данных]
+    E --> F{Значимо?}
+    F -->|Да| G[Публикация]
+    F -->|Нет| D
 ```
 
-Perfect for: Workflows, architectures, processes
+Идеально для: Рабочих процессов, архитектур, процессов
 
 Note:
-Mermaid diagrams are created from simple text. They're version-controllable and edit anywhere!
+Диаграммы Mermaid создаются из простого текста. Они контролируются версиями и редактируются где угодно!
 
 ---
 
-## Research Results
+## Результаты исследования
 
-| Model | Accuracy | Speed | Memory |
-|-------|----------|-------|--------|
-| Baseline | 87.3% | 1.0x | 2GB |
-| Ours (v1) | 92.1% | 1.5x | 1.8GB |
-| **Ours (v2)** | **95.8%** | **2.3x** | **1.2GB** |
+| Модель | Точность | Скорость | Память |
+|--------|----------|----------|--------|
+| Базовая | 87.3% | 1.0x | 2GB |
+| Наша (v1) | 92.1% | 1.5x | 1.8GB |
+| **Наша (v2)** | **95.8%** | **2.3x** | **1.2GB** |
 
-> **Key Finding:** 8.5% improvement over baseline with 40% memory reduction
+> **Ключевой вывод:** Улучшение на 8.5% по сравнению с базовой моделью при снижении потребления памяти на 40%
 
 Note:
-Tables are perfect for comparative results. Markdown tables are simple and version-control friendly.
+Таблицы идеально подходят для сравнительных результатов. Таблицы Markdown просты и удобны для контроля версий.
 
 ---
 
 {{< slide background-color="#1e3a8a" >}}
 
-## Custom Backgrounds
+## Пользовательские фоны
 
-This slide has a **blue background**!
+У этого слайда **синий фон**!
 
-You can customize:
-- Background colors
-- Background images
-- Gradients
-- Videos (yes, really!)
+Можно настроить:
+- Цвета фона
+- Фоновые изображения
+- Градиенты
+- Видео (да, серьёзно!)
 
-Use `{{</* slide background-color="#hex" */>}}`
+Используйте `{{</* slide background-color="#hex" */>}}`
 
 ---
 
-## Vertical Navigation
+## Вертикальная навигация
 
-**There's more content below! ⬇️**
+**Ниже есть ещё контент! ⬇️**
 
-Press the **Down Arrow** to see substeps.
+Нажмите **стрелку вниз**, чтобы увидеть подпункты.
 
 Note:
-This demonstrates Reveal.js's vertical slide feature. Great for optional details or deep dives.
+Это демонстрирует функцию вертикальных слайдов Reveal.js. Отлично подходит для дополнительных деталей или углублённого изучения.
 
 ---
 
 {{< slide id="substep-1" >}}
 
-### Substep 1: Details
+### Подпункт 1: Детали
 
-This is additional content in a vertical stack.
+Это дополнительный контент в вертикальном стеке.
 
-Navigate down for more, or right to skip to next topic →
+Перемещайтесь вниз для подробностей или вправо, чтобы перейти к следующей теме →
 
 ---
 
 {{< slide id="substep-2" >}}
 
-### Substep 2: More Details
+### Подпункт 2: Дополнительные детали
 
-Even more detailed information.
+Ещё более подробная информация.
 
-Press **Up Arrow** to go back, or **Right Arrow** to continue.
+Нажмите **стрелку вверх**, чтобы вернуться, или **стрелку вправо**, чтобы продолжить.
 
 ---
 
-## Citations & Quotes
+## Цитаты и ссылки
 
-> "The best way to predict the future is to invent it."
+> "Лучший способ предсказать будущее — изобрести его."
 > 
-> — Alan Kay
+> — Алан Кей
 
-Or reference research:
+Или ссылка на исследование:
 
-> Recent work by Smith et al. (2024) demonstrates that Markdown-based slides improve reproducibility by 78% compared to proprietary formats[^1].
+> Недавняя работа Смита и др. (2024) показывает, что слайды на основе Markdown улучшают воспроизводимость на 78% по сравнению с проприетарными форматами[^1].
 
-[^1]: Smith, J. et al. (2024). *Open Science Presentations*. Nature Methods.
+[^1]: Смит, Дж. и др. (2024). *Презентации для открытой науки*. Nature Methods.
 
 ---
 
-## Media: YouTube Videos
+## Медиа: видео с YouTube
 
 {{< youtube dQw4w9WgXcQ >}}
 
 Note:
-Embed YouTube videos with just the video ID. Perfect for demos, tutorials, or interviews.
+Встраивайте видео с YouTube, используя только ID видео. Идеально для демонстраций, туториалов или интервью.
 
 ---
 
-## Media: All Options
+## Медиа: все варианты
 
-Embed various media types with simple shortcodes:
+Встраивайте различные типы медиа с помощью простых шорткодов:
 
 - **YouTube**: `{{</* youtube VIDEO_ID */>}}`
 - **Bilibili**: `{{</* bilibili id="BV1..." */>}}`
-- **Local videos**: `{{</* video src="file.mp4" controls="yes" */>}}`
-- **Audio**: `{{</* audio src="file.mp3" */>}}`
+- **Локальные видео**: `{{</* video src="file.mp4" controls="yes" */>}}`
+- **Аудио**: `{{</* audio src="file.mp3" */>}}`
 
-Perfect for demos, interviews, tutorials, or podcasts!
+Идеально для демонстраций, интервью, туториалов или подкастов!
 
 Note:
-All media types work seamlessly in slides. Just use the appropriate shortcode.
+Все типы медиа seamlessly работают в слайдах. Просто используйте соответствующий шорткод.
 
 ---
 
-## Interactive Elements
+## Интерактивные элементы
 
-Try these keyboard shortcuts:
+Попробуйте эти сочетания клавиш:
 
-- `→` `←` : Navigate slides
-- `↓` `↑` : Vertical navigation  
-- `S` : Speaker notes
-- `F` : Fullscreen
-- `O` : Overview mode
-- `/` : Search
-- `ESC` : Exit modes
+- `→` `←` : Навигация по слайдам
+- `↓` `↑` : Вертикальная навигация  
+- `S` : Заметки докладчика
+- `F` : Полный экран
+- `O` : Режим обзора
+- `/` : Поиск
+- `ESC` : Выход из режимов
 
 ---
 <!-- hide -->
-## Hidden Slide Demo (Inline Comment)
+## Демонстрация скрытого слайда (встроенный комментарий)
 
-This slide is hidden using the `<!-- hide -->` comment method.
+Этот слайд скрыт с помощью метода комментария `<!-- hide -->`.
 
-Perfect for:
-- Speaker-only content
-- Backup slides
-- Work-in-progress content
+Идеально для:
+- Контента только для докладчика
+- Резервных слайдов
+- Материалов в процессе разработки
 
 Note:
-This slide won't appear in the presentation but remains in source for reference.
+Этот слайд не появится в презентации, но останется в исходном коде для справки.
 
 ---
 
-## Thanks
+## Спасибо
 
-### Questions?
+### Вопросы?
 
-- 🌐 Website: [hugoblox.com](https://hugoblox.com)
+- 🌐 Веб-сайт: [hugoblox.com](https://hugoblox.com)
 - 🐦 X/Twitter: [@MakeOwnable](https://twitter.com/MakeOwnable)
-- 💬 Discord: [Join Community](https://discord.gg/z8wNYzb)
-- ⭐ GitHub: [Star us!](https://github.com/HugoBlox/kit)
+- 💬 Discord: [Присоединиться к сообществу](https://discord.gg/z8wNYzb)
+- ⭐ GitHub: [Поставьте нам звезду!](https://github.com/HugoBlox/kit)
 
-**All slides created with Markdown** • No vendor lock-in • Edit anywhere
+**Все слайды созданы с помощью Markdown** • Без привязки к вендору • Редактируйте где угодно
 
 Note:
-Thank you for your attention! Feel free to reach out with questions or contributions.
+Спасибо за внимание! Не стесняйтесь обращаться с вопросами или предложениями.
 
 ---
 
-## 🎨 Branding Your Slides
+## 🎨 Брендирование слайдов
 
-Add your identity to every slide with simple configuration!
+Добавьте свою идентичность на каждый слайд с помощью простой конфигурации!
 
-**What you can add:**
+**Что можно добавить:**
 
-| Element | Position Options |
-|---------|-----------------|
-| Logo | top-left, top-right, bottom-left, bottom-right |
-| Title | Same as above |
-| Author | Same as above |
-| Footer Text | Same + bottom-center |
+| Элемент | Варианты расположения |
+|---------|----------------------|
+| Логотип | top-left, top-right, bottom-left, bottom-right |
+| Заголовок | То же, что и выше |
+| Автор | То же, что и выше |
+| Текст нижнего колонтитула | То же, что и выше + bottom-center |
 
-Edit the `branding:` section in your slide's front matter (top of file).
+Отредактируйте раздел `branding:` в front matter вашего слайда (вверху файла).
 
 ---
 
-## 📁 Adding Your Logo
+## 📁 Добавление логотипа
 
-1. Place your logo in `assets/media/` folder
-2. Use SVG format for best results (auto-adapts to any theme!)
-3. Add to front matter:
+1. Поместите логотип в папку `assets/media/`
+2. Используйте формат SVG для наилучших результатов (автоматически адаптируется к любой теме!)
+3. Добавьте в front matter:
 
 ```yaml
 branding:
   logo:
-    filename: "your-logo.svg"  # Must be in assets/media/
+    filename: "your-logo.svg"  # Должен быть в assets/media/
     position: "top-right"
     width: "60px"
 ```
 
-**Tip:** SVGs with `fill="currentColor"` automatically match theme colors!
+**Совет:** SVG с `fill="currentColor"` автоматически подстраиваются под цвета темы!
 
 ---
 
-## 📝 Title & Author Overlays
+## 📝 Наложение заголовка и автора
 
-Show presentation title and/or author on every slide:
+Показывайте название презентации и/или автора на каждом слайде:
 
 ```yaml
 branding:
   title:
     show: true
     position: "bottom-left"
-    text: "Short Title"  # Optional: override long page title
+    text: "Краткий заголовок"  # Необязательно: заменить длинный заголовок страницы
   
   author:
     show: true
     position: "bottom-right"
 ```
 
-Author is auto-detected from page front matter (`author:` or `authors:`).
+Автор определяется автоматически из front matter страницы (`author:` или `authors:`).
 
 ---
 
-## 📄 Footer Text
+## 📄 Текст нижнего колонтитула
 
-Add copyright, conference name, or any persistent text:
+Добавьте копирайт, название конференции или любой постоянный текст:
 
 ```yaml
 branding:
   footer:
-    text: "© 2024 Your Name · ICML 2024"
+    text: "© 2024 Ваше Имя · ICML 2024"
     position: "bottom-center"
 ```
 
-**Tip:** Supports Markdown! Use `[Link](url)` for clickable links.
+**Совет:** Поддерживает Markdown! Используйте `[Ссылка](url)` для кликабельных ссылок.
 
 ---
 
 <!-- no-branding -->
 
-## 🔇 Hiding Branding Per-Slide
+## 🔇 Скрытие брендирования на отдельных слайдах
 
-Sometimes you want a clean slide (title slides, full-screen images).
+Иногда нужен чистый слайд (титульные слайды, полноэкранные изображения).
 
-Add this comment at the **start** of your slide content:
+Добавьте этот комментарий в **начало** содержимого слайда:
 
 ```markdown
 <!-- no-branding -->
-## My Clean Slide
+## Мой чистый слайд
 
-Content here...
+Содержимое...
 ```
 
-☝️ **This slide uses `<!-- no-branding -->`** — notice no logo or overlays!
+☝️ **На этом слайде используется `<!-- no-branding -->`** — обратите внимание, нет логотипа или наложений!
 
 ---
 
 <!-- no-header -->
 
-## 🔇 Selective Hiding
+## 🔇 Выборочное скрытие
 
-Hide just the header (logo + title):
+Скрыть только верхний колонтитул (логотип + заголовок):
 
 ```markdown
 <!-- no-header -->
 ```
 
-Or just the footer (author + footer text):
+Или только нижний колонтитул (автор + текст):
 
 ```markdown
 <!-- no-footer -->
 ```
 
-☝️ **This slide uses `<!-- no-header -->`** — footer still visible below!
+☝️ **На этом слайде используется `<!-- no-header -->`** — нижний колонтитул всё ещё виден внизу!
 
 ---
 
 <!-- no-footer -->
 
-## ✅ Quick Reference
+## ✅ Краткий справочник
 
-| Comment | Hides |
-|---------|-------|
-| `<!-- no-branding -->` | Everything (logo, title, author, footer) |
-| `<!-- no-header -->` | Logo + Title overlay |
-| `<!-- no-footer -->` | Author + Footer text |
+| Комментарий | Скрывает |
+|-------------|----------|
+| `<!-- no-branding -->` | Всё (логотип, заголовок, автора, нижний колонтитул) |
+| `<!-- no-header -->` | Логотип + наложение заголовка |
+| `<!-- no-footer -->` | Автор + текст нижнего колонтитула |
 
-☝️ **This slide uses `<!-- no-footer -->`** — logo still visible above!
+☝️ **На этом слайде используется `<!-- no-footer -->`** — логотип всё ещё виден сверху!
 
 ---
 
-## 🚀 Get Started
+## 🚀 Начните работу
 
-1. Copy this example's front matter as a starting point
-2. Replace logo with yours in `assets/media/`
-3. Customize positions and text
-4. Use `<!-- no-branding -->` for special slides
+1. Скопируйте front matter этого примера как отправную точку
+2. Замените логотип на свой в `assets/media/`
+3. Настройте расположение и текст
+4. Используйте `<!-- no-branding -->` для специальных слайдов
 
-**Pro tip:** Set site-wide defaults in `config/_default/params.yaml` under `slides.branding`!
-
+**Совет профессионала:** Установите общесайтовые значения по умолчанию в `config/_default/params.yaml` в разделе `slides.branding`!

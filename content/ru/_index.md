@@ -17,7 +17,7 @@ sections:
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
+        text: Скачать резюме
         url: uploads/resume.pdf
       headings:
         about: ''
@@ -44,13 +44,13 @@ sections:
       text: |-
         Программирую на C# и Python — нравится как низкоуровневая работа с памятью, так и написание скриптов для анализа данных. В C++ меня привлекает эффективность и контроль над ресурсами, в Python — скорость разработки.
 
-        В свободное время изучаю иностранные языки, играю на гитаре и пианино, пишу музыку, фотографирую катаюсь на велосипеде. Иногда создаю в качестве pet-проектов игры на Unity.
+        В свободное время изучаю иностранные языки, играю на гитаре и пианино, пишу музыку, фотографирую, катаюсь на велосипеде. Иногда создаю в качестве pet-проектов игры на Unity.
     design:
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Избранные публикации
       filters:
         folders:
           - publications
@@ -60,7 +60,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Недавние публикации
       text: ''
       filters:
         folders:
@@ -71,7 +71,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Доклады
       filters:
         folders:
           - events
@@ -80,7 +80,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: Новости
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

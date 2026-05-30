@@ -1,13 +1,13 @@
 ---
-title: 'Итоги недели 1–7 мая 2026: праздничный концерт в РУДН'
-summary: '4 мая в главном корпусе РУДН прошёл концерт к празднику Весны и Труда — делюсь впечатлениями.'
+title: 'Week of May 1–7, 2026: Festive Concert at RUDN University'
+summary: 'On May 4, a concert dedicated to the Spring and Labor Day holiday was held in the main building of RUDN University — sharing my impressions.'
 date: 2026-05-04
 authors:
   - me
 tags:
-  - РУДН
-  - Концерт
-  - События недели
+  - RUDN
+  - Concert
+  - Weekly Events
 cover:
   image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f'
   position: { x: 50, y: 50 }
@@ -19,28 +19,28 @@ cover:
     enabled: true
     height: '80px'
 image:
-  caption: 'Праздничный концерт в главном корпусе РУДН, 4 мая 2026 года.'
+  caption: 'Festive concert in the main building of RUDN University, May 4, 2026.'
 ---
 
-# Неделя 1–7 мая 2026
+# Week of May 1–7, 2026
 
-Центральным событием этой недели стал концерт, который состоялся 4 мая в главном корпусе РУДН. Мероприятие было приурочено к празднику Весны и Труда и оставило яркое впечатление.
+The central event of this week was a concert held on May 4 in the main building of RUDN University. The event was dedicated to the Spring and Labor Day holiday and left a vivid impression.
 
-## О событии
+## About the Event
 
-- **Место проведения:** главный корпус РУДН
-- **Дата:** 4 мая 2026 года
-- **Повод:** праздник Весны и Труда
-- **Формат:** праздничная концертная программа
+- **Venue:** RUDN University main building
+- **Date:** May 4, 2026
+- **Occasion:** Spring and Labor Day
+- **Format:** festive concert program
 
-Программа сочеталась с тёплой, оживлённой атмосферой. Чувствовалось, что организаторы постарались сделать событие неформальным и одновременно торжественным.
+The program was matched by a warm, lively atmosphere. It was clear that the organizers had made an effort to create an event that was both informal and celebratory.
 
-## Что запомнилось
+## What Stood Out
 
-Концерт выделялся продуманной программой и качеством выступлений. Номера чередовались динамично, без затянутых пауз, что удерживало внимание на протяжении всего мероприятия. Приятно удивила вовлечённость зрителей — зал реагировал живо, поддерживая выступающих.
+The concert was distinguished by its well-thought-out program and the quality of the performances. The acts alternated dynamically, without prolonged pauses, which kept the audience's attention throughout the entire event. The level of audience engagement was a pleasant surprise — the hall responded enthusiastically, supporting the performers.
 
-Особое впечатление произвела общая атмосфера: праздничная, но без излишней официальности. Такие события напоминают, что университетская жизнь не ограничивается лекциями и семинарами.
+The overall atmosphere made a particular impression: festive, yet without excessive formality. Events like this serve as a reminder that university life extends beyond lectures and seminars.
 
-## Итог
+## Conclusion
 
-Неделя завершилась на позитивной ноте. Концерт 4 мая стал для меня не просто развлекательным мероприятием, а поводом почувствовать себя частью университетского сообщества. Опыт однозначно положительный.
+The week ended on a positive note. The May 4 concert was not just an entertainment event for me, but a reason to feel like part of the university community. An unambiguously positive experience.

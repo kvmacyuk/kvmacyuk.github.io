@@ -1,7 +1,7 @@
 ---
 title: 'Week of May 18 – May 24'
 summary: 'Stepik course and the last class of Basic Military Training'
-date: 2026-04-09
+date: 2026-05-25
 authors:
   - me
 tags:
