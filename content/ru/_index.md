@@ -20,9 +20,9 @@ sections:
         text: Скачать резюме
         url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: 'Обо мне'
+        education: 'Образование'
+        interests: 'Интересы'
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
