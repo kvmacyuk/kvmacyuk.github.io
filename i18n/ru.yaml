@@ -1,15 +1,15 @@
-- theme_selector:
+- id: theme_selector
   translation: "Тема оформления"
 
-- theme_light:
+- id: theme_light
   translation: "Светлая"
 
-- theme_dark:
+- id: theme_dark
   translation: "Тёмная"
 
-- theme_auto:
+- id: theme_auto
   translation: "Авто"
-  
+
 - id: read_more
   translation: "Читать далее"
 
