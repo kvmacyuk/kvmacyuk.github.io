@@ -1,11 +1,104 @@
-theme_selector:
+- theme_selector:
   translation: "Тема оформления"
 
-theme_light:
+- theme_light:
   translation: "Светлая"
 
-theme_dark:
+- theme_dark:
   translation: "Тёмная"
 
-theme_auto:
+- theme_auto:
   translation: "Авто"
+  
+- id: read_more
+  translation: "Читать далее"
+
+- id: prev
+  translation: "Предыдущий"
+
+- id: next
+  translation: "Следующий"
+
+- id: related
+  translation: "Похожие публикации"
+
+- id: page_prev
+  translation: "Назад"
+
+- id: page_next
+  translation: "Вперёд"
+
+- id: toc
+  translation: "Содержание"
+
+- id: tags
+  translation: "Теги"
+
+- id: categories
+  translation: "Категории"
+
+- id: series
+  translation: "Серия"
+
+- id: authors
+  translation: "Авторы"
+
+- id: search
+  translation: "Поиск"
+
+- id: search_placeholder
+  translation: "Поиск..."
+
+- id: no_results
+  translation: "Ничего не найдено"
+
+- id: share
+  translation: "Поделиться"
+
+- id: published_on
+  translation: "Опубликовано"
+
+- id: last_updated
+  translation: "Обновлено"
+
+- id: citation
+  translation: "Цитировать"
+
+- id: abstract
+  translation: "Аннотация"
+
+- id: publication
+  translation: "Публикация"
+
+- id: publication_types
+  translation: "Тип публикации"
+
+- id: projects
+  translation: "Проекты"
+
+- id: date
+  translation: "Дата"
+
+- id: time
+  translation: "Время"
+
+- id: event
+  translation: "Событие"
+
+- id: location
+  translation: "Место"
+
+- id: video
+  translation: "Видео"
+
+- id: slides
+  translation: "Слайды"
+
+- id: code
+  translation: "Код"
+
+- id: dataset
+  translation: "Данные"
+
+- id: poster
+  translation: "Постер"
