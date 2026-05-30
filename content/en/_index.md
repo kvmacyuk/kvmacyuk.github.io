@@ -42,11 +42,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I program in C# and Python. What draws me to C++ is its efficiency and control over resources, and to Python — speed of development.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        In my free time, I study foreign languages, play the guitar and piano, write music, take photos, and ride a bicycle. Sometimes I create games in Unity as pet projects.😃
     design:
       columns: '1'
   - block: collection
